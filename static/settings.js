@@ -395,7 +395,7 @@ function SetupControls() {
 		} );
 
 		document.getElementById( "raid-timeout" ).addEventListener( "input", function ( event ) {
-			if ( event.target.value.match( /[a-z]/i ) || parseInt( event.target.value, 10 ) < 1 || parseInt( event.target.value, 10 ) > 300 ) {
+			if ( event.target.value.match( /[a-z]/i ) || parseInt( event.target.value, 10 ) < 1 || parseInt( event.target.value, 10 ) > 600 ) {
 				document.getElementById( "raid-timeout" ).parentElement.classList.add( "error" );
 			} else {
 				document.getElementById( "raid-timeout" ).parentElement.classList.remove( "error" );
@@ -405,7 +405,7 @@ function SetupControls() {
 		} );
 
 		document.getElementById( "raid-max-results" ).addEventListener( "input", function ( event ) {
-			if ( event.target.value.match( /[a-z]/i ) || parseInt( event.target.value, 10 ) < 1 || parseInt( event.target.value, 10 ) > 50 ) {
+			if ( event.target.value.match( /[a-z]/i ) || parseInt( event.target.value, 10 ) < 1 || parseInt( event.target.value, 10 ) > 150 ) {
 				document.getElementById( "raid-max-results" ).parentElement.classList.add( "error" );
 			} else {
 				document.getElementById( "raid-max-results" ).parentElement.classList.remove( "error" );

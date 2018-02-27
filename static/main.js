@@ -39,8 +39,8 @@ var settings = {
 		orientation: "horizontal",
 		verticalStacking: "row",
 		infoLevel: "normal",
-		raidTimeout: 120,
-		raidMaxResults: 30,
+		raidTimeout: 600,
+		raidMaxResults: 150,
 		nightMode: false,
 		toolbarShrink: false
 	},
